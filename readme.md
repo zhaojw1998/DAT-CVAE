@@ -7,3 +7,10 @@ See `./harmonization_model_ver8/write`.
 
 ## Demo of Melody Generation
 See `./melody_generation_model/write/melody_write`.
+
+## Contact
+Jingwei Zhao (PhD student in Data Science at NUS)
+
+jzhao@u.nus.edu
+
+Oct. 07, 2021
