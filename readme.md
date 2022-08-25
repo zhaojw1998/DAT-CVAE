@@ -16,8 +16,6 @@ jzhao@u.nus.edu
 Oct. 07, 2021
 
 
-<midi-player src="./demo/control_2_modal_change.mid" sound-font>
-</midi-player>
-
-<!-- The following needs to be inserted somewhere on the page for the player(s) to work. -->
-<script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.22.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0"></script>
+<audio controls="controls" src="demo\New_Project.mp3">
+    Your browser does not support the HTML5 Audio element.
+</audio>
