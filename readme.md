@@ -15,7 +15,7 @@ jzhao@u.nus.edu
 
 Oct. 07, 2021
 
-
-<audio controls="controls" src="demo\New_Project.mp3">
-    Your browser does not support the HTML5 Audio element.
-</audio>
+<script>
+var audio = new Audio("demo\New_Project.mp3")
+audio.play()
+</script>
