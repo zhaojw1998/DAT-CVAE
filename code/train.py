@@ -8,7 +8,7 @@ import utils
 from torch import optim
 import torch.nn.functional as F
 from utils import MinExponentialLR, loss_function_vae, loss_function_discr, scheduled_sampling, get_complement, AverageMeter
-from model_simplified import VAE
+from model import VAE
 from torch.utils.tensorboard import SummaryWriter
 from nottingham_dataset import Nottingham
 import time
