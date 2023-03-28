@@ -10,7 +10,7 @@
   },
   "dataset_paths": {
     "hpc_data_path": "/gpfsnyu/scratch/jz4807/data.npy",
-    "laptop_data_path": "C:/Users/zhaoj/OneDrive - National University of Singapore/Computer Music Research/data.npy"
+    "laptop_data_path": "./code/data.npy"
   },
   "train_hyperparams": {
     "batch_size": 128,

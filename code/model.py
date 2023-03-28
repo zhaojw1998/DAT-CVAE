@@ -460,7 +460,7 @@ if __name__ == '__main__':
 
     from nottingham_dataset import Nottingham
     from torch.utils.data import DataLoader
-    dataset = np.load('../../data.npy', allow_pickle=True)
+    dataset = np.load('./code/data.npy', allow_pickle=True)
     dataset = Nottingham(dataset=dataset, 
                         length=128, 
                         step_size=16, 

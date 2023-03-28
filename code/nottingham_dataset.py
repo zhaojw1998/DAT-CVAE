@@ -214,7 +214,7 @@ def grid_to_pr_and_notes(est_pitch, bpm=60., start=0., max_simu_note=6, pitch_eo
 
 
 if __name__ == "__main__":
-    dataset = np.load('C:/Users/zhaoj/OneDrive - National University of Singapore/Computer Music Research/data.npy', allow_pickle=True)
+    dataset = np.load('./code/data.npy', allow_pickle=True)
     dataset = Nottingham(dataset, 128, 16, 'pr', 2, -2, mask_ratio=1.)
     #print(len(dataset))
     for i in range(5):
